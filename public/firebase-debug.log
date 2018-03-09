@@ -1,0 +1,40 @@
+[debug] [2018-03-08T12:36:34.075Z] ----------------------------------------------------------------------
+[debug] [2018-03-08T12:36:34.075Z] Command:       C:\Program Files\program\nodejs\node.exe C:\Users\matsuda_d\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-08T12:36:34.075Z] CLI Version:   3.17.4
+[debug] [2018-03-08T12:36:34.075Z] Platform:      win32
+[debug] [2018-03-08T12:36:34.075Z] Node Version:  v9.7.1
+[debug] [2018-03-08T12:36:34.075Z] Time:          Thu Mar 08 2018 21:36:34 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:34.075Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-08T12:36:34.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-08T12:36:34.113Z] > authorizing via signed-in user
+[debug] [2018-03-08T12:36:34.115Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-08T12:36:34.115Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/pj2tvHMyS6O-kbF2ehUcRxFdirK1q1kdhie-_Yt6Aow',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Mar 08 2018 21:36:34 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:34.347Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:36:34.378Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mazdafirstfirebase  
+  
+ Thu Mar 08 2018 21:36:34 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:35.236Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:36:35.237Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mazdafirstfirebase/tokens  
+  
+ Thu Mar 08 2018 21:36:35 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:35.871Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\matsuda_d\Documents\32_develop\13_Firebase\friendlychat\public'...
+[info] 
+[debug] [2018-03-08T12:36:35.874Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mazdafirstfirebase  
+  
+ Thu Mar 08 2018 21:36:35 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:36.972Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:36:36.973Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/418371659318/clients/_:getWebAppConfig  
+  
+ Thu Mar 08 2018 21:36:36 GMT+0900 (東京 (標準時))
+[debug] [2018-03-08T12:36:37.852Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
